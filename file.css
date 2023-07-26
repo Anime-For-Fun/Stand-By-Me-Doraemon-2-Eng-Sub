@@ -62,8 +62,9 @@ p{
 }
 .box img{
   display:block;
-  width:100%;
+  max-width:100%;
   aspect-ratio:16/9;
+  object-fit:cover;
   background-color:#f0f2f5;
   color:#000000;
   border-radius:5px; 
@@ -86,4 +87,5 @@ p{
   text-decoration:none;
   color:inherit;
 }
+
 
