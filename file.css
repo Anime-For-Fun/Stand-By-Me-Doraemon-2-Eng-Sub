@@ -64,7 +64,7 @@ p{
   display:block;
   width:100%;
   aspect-ratio:16/9;
-  object-fit:fit;
+  object-fit:fill;
   background-color:#f0f2f5;
   color:#000000;
   border-radius:5px; 
