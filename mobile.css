@@ -9,19 +9,14 @@ body{
 }
 
 .nav-bar{
+  display:flex;
   padding:10px;
   background-color:#ffffff;
   color:#000000;
 }
 .title{
-  margin-top:3px;
+  margin:3px 0 0 0;
   font-size:18px;
-}  
-ul{
-  list-style-type:none;
-  display:flex;
-  margin:0;
-  padding:0;
 }
 .icons{
   display:flex;
@@ -37,7 +32,7 @@ ul{
   background-color:#bbbbbb;
   margin:0 10px;
 }
-p{
+.mybox p, .box p{
   margin:0;
   font-size:14px;
 }
@@ -63,8 +58,8 @@ p{
 .box img{
   display:block;
   max-width:100%;
+  height:auto;
   aspect-ratio:16/9;
-  object-fit:cover;
   background-color:#f0f2f5;
   color:#000000;
   border-radius:5px; 
@@ -77,6 +72,11 @@ p{
   text-align:center;
 }
 
+.footer p{
+  margin:0;
+  font-size:14px;
+}
+
 .box a{
   text-decoration:none;
   cursor:default;
@@ -87,4 +87,5 @@ p{
   text-decoration:none;
   color:inherit;
 }
+
 
