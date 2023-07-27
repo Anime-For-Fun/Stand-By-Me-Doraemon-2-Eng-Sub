@@ -3,10 +3,9 @@ html{
 }
 body{
   margin:0;
-  background-color:#f0f2f5;
-  color:#000000;
   font-family:"Arial", sans-serif;
-  font-size:14px;
+  background-color:#f0f2f5;
+  color:#00000;
 }
 
 .nav-bar{
@@ -40,6 +39,7 @@ ul{
 }
 p{
   margin:0;
+  font-size:14px;
 }
 .container{
   display:grid;
@@ -87,5 +87,4 @@ p{
   text-decoration:none;
   color:inherit;
 }
-
 
