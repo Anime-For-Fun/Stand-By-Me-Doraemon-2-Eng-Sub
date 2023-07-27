@@ -22,9 +22,6 @@ body{
   display:flex;
   margin-left:auto;
 }
-.icon{
-  margin-left:5px;
-}
 
 .footer-hr{
   border:none;
@@ -58,7 +55,6 @@ body{
 .box img{
   display:block;
   max-width:100%;
-  height:auto;
   aspect-ratio:16/9;
   background-color:#f0f2f5;
   color:#000000;
@@ -84,6 +80,7 @@ body{
 }
 
 .nav-bar a{
+  margin-left:5px;
   text-decoration:none;
   color:inherit;
 }
