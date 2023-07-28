@@ -79,7 +79,8 @@ body{
 }
 
 button{
-  padding:3px;
+  padding:0;
+  margin:3px;
   background-color:#ffffff;
   border:none;
   }
