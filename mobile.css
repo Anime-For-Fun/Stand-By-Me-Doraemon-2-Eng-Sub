@@ -78,10 +78,16 @@ body{
   color:inherit;
 }
 
-.nav-bar a{
+button{
+  padding:0;
+  background-color:#ffffff;
+  border:none;
+  }
+button:active{
+  background-color:#f0f2f5;
+  }
+svg{
   margin-left:5px;
-  text-decoration:none;
-  color:inherit;
-}
+  }
 
 
