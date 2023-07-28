@@ -80,14 +80,11 @@ body{
 
 button{
   padding:0;
+  margin-left:5px;
   background-color:#ffffff;
   border:none;
   }
 button:active{
   background-color:#f0f2f5;
   }
-svg{
-  margin-left:5px;
-  }
-
 
