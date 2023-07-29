@@ -5,8 +5,12 @@ body{
   margin:0;
   font-family:"Arial", sans-serif;
   background-color:#f0f2f5;
-  color:#00000;
+  color:#000000;
 }
+
+p{
+  margin:0;
+  }
 
 .nav-bar{
   display:flex;
@@ -29,8 +33,7 @@ body{
   background-color:#bbbbbb;
   margin:0 10px;
 }
-.mybox p, .box p{
-  margin:0;
+.box p{
   font-size:14px;
 }
 .container{
@@ -45,17 +48,20 @@ body{
   padding:5px;
   border-radius:5px;
 }
-.mybox{
+.title-box{
   margin:10px;
   padding:10px 5px;
   background-color:#ffffff;
   color:#000000;
+  font-size:14px;
   border-radius:5px;
 }
 .box img{
   display:block;
   aspect-ratio:16/9;
+  object-fit:cover;
   background-color:#f0f2f5;
+  font-size:14px;
   color:#000000;
   border-radius:5px; 
 }
@@ -80,7 +86,7 @@ body{
 
 button{
   padding:0;
-  margin:3px;
+  margin:2px;
   background-color:#ffffff;
   border:none;
   }
