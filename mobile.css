@@ -14,15 +14,17 @@ p{
 
 .nav-bar{
   display:flex;
-  padding:10px;
+  padding:5px 10px;
   background-color:#ffffff;
   color:#000000;
 }
 .title{
-  margin:5px 0 0 0;
   font-size:18px;
   font-weight: normal;
 }
+.title:active{
+  background-color:#f0f2f5;
+  }
 .icons{
   display:flex;
   margin-left:auto;
@@ -35,8 +37,13 @@ p{
   margin:0 10px;
 }
 .box p{
+  margin-top:5px;
   font-size:14px;
 }
+.box p:active{
+  text-decoration:underline;
+  }
+
 .container{
   display:grid;
   margin:10px;
@@ -66,9 +73,9 @@ p{
   color:#000000;
   border-radius:5px; 
 }
-.box p{
-  margin-top:5px;
-}
+.box img:active{
+  transform: scale(0.95);
+  }
 .footer{
   margin:5px;
   text-align:center;
@@ -79,19 +86,19 @@ p{
   font-size:14px;
 }
 
-.box a{
+a{
   text-decoration:none;
   cursor:default;
   color:inherit;
 }
 
-button{
+.icons button{
   padding:0;
-  margin:3px;
+  margin-left:5px;
   background-color:#ffffff;
   border:none;
   }
-button:active{
+.icons button:active{
   background-color:#f0f2f5;
   }
 
