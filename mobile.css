@@ -5,20 +5,21 @@ body{
   margin:0;
   font-family:"Arial", sans-serif;
   background-color:#f0f2f5;
-  color:#000000;
 }
 
 p{
   margin:0;
+  font-size:14px;
+  color:#000000;
   }
 
-.nav-bar{
+nav{
   display:flex;
-  padding:5px 10px;
   background-color:#ffffff;
-  color:#000000;
 }
 .title{
+  color:#000000;
+  margin:15px 10px;
   font-size:18px;
   font-weight: normal;
 }
@@ -27,6 +28,7 @@ p{
   }
 .icons{
   display:flex;
+  margin-right:5px;
   margin-left:auto;
 }
 
@@ -38,12 +40,7 @@ p{
 }
 .box p{
   margin-top:5px;
-  font-size:14px;
 }
-.box p:active{
-  text-decoration:underline;
-  }
-
 .container{
   display:grid;
   margin:10px;
@@ -52,38 +49,37 @@ p{
 }
 .box{
   background-color:#ffffff;
-  color:#000000;
   padding:5px;
   border-radius:5px;
 }
+.box:active{
+  transform:scale(0.95);
+  }
+  
 .title-box{
+  display:flex;
   margin:10px;
-  padding:10px 5px;
   background-color:#ffffff;
-  color:#000000;
-  font-size:14px;
   border-radius:5px;
 }
+.title-box p{
+  margin:12px 5px;
+  }
+.title-box svg{
+  margin:10px 5px 10px auto;
+  }
 .box img{
   display:block;
   aspect-ratio:16/9;
   object-fit:cover;
   background-color:#f0f2f5;
   font-size:14px;
-  color:#000000;
   border-radius:5px; 
 }
-.box img:active{
-  transform: scale(0.95);
-  }
+
 .footer{
   margin:5px;
   text-align:center;
-}
-
-.footer p{
-  margin:0;
-  font-size:14px;
 }
 
 a{
@@ -94,8 +90,8 @@ a{
 
 .icons button{
   padding:0;
-  margin:5px 0 5px 5px;
-  background-color:#ffffff;
+  margin:13px 3px;
+  background-color:transparent;
   border:none;
   }
 .icons button:active{
