@@ -4,38 +4,80 @@ html{
 body{
   margin:0;
   font-family:"Arial", sans-serif;
-  background-color:#f0f2f5;
+  background:var(--v1);
 }
 
 p{
   margin:0;
   font-size:14px;
-  color:#000000;
+  color:var(--v3);
   }
 
 nav{
   display:flex;
-  background-color:#ffffff;
+  height:50px;
+  padding:0 5px 0 10px;
+  background:var(--v2);
 }
+svg{
+  stroke:var(--v3);
+  }
 .title{
-  color:#000000;
-  margin:15px 10px;
+  color:var(--v3);
+  margin:auto 0;
   font-size:18px;
   font-weight: normal;
 }
 .title:active{
-  background-color:#f0f2f5;
+  background:#f0f0f5;
   }
+
+button{
+  padding:0;
+  background:none;
+  border:none;
+  }
+
+#search-bar{
+  visibility:hidden;
+  display:flex;
+  position:absolute;
+  height:50px;
+  top:0;
+  right:0;
+  left:0;
+  background:var(--v2);
+  }
+#search-bar button{
+  margin:13px 10px;
+  }
+#search-bar input{
+  margin:10px 0;
+  width:100%;
+  border:none;
+  color:var(--v3);
+  background:var(--v1);
+  border-radius:5px;
+  }
+input:focus{
+  outline:none;
+  }
+#sun{
+  display:none;
+  }
+#moon{
+  display:none;
+  }
+
 .icons{
   display:flex;
-  margin-right:5px;
   margin-left:auto;
 }
 
 .footer-hr{
   border:none;
   height:0.5px;
-  background-color:#bbbbbb;
+  background:#bbbbbb;
   margin:0 10px;
 }
 .box p{
@@ -48,7 +90,7 @@ nav{
   gap:10px;
 }
 .box{
-  background-color:#ffffff;
+  background:var(--v2);
   padding:5px;
   border-radius:5px;
 }
@@ -59,22 +101,23 @@ nav{
 .title-box{
   display:flex;
   margin:10px;
-  background-color:#ffffff;
+  height:40px;
+  background:var(--v2);
   border-radius:5px;
 }
 .title-box p{
-  margin:12px 5px;
+  margin:auto 5px;
   }
 .title-box svg{
-  margin:10px 5px 10px auto;
+  margin:auto 5px auto auto;
   }
 .box img{
   display:block;
   aspect-ratio:16/9;
   object-fit:cover;
-  background-color:#f0f2f5;
+  background:var(--v1);
   font-size:14px;
-  border-radius:5px; 
+  border-radius:3px;
 }
 
 .footer{
@@ -90,11 +133,12 @@ a{
 
 .icons button{
   padding:0;
-  margin:13px 4px;
-  background-color:transparent;
+  margin:13px 5px;
+  background:none;
   border:none;
   }
-.icons button:active{
-  background-color:#f0f2f5;
+
+button:active{
+  background:#bbb;
   }
 
