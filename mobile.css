@@ -1,3 +1,25 @@
+:root{
+  --v1:#000;
+  --v2:#000;
+  --v3:#000;
+  --sun:none;
+  --moon:none;
+  }
+
+.dark-mode{
+  --v1:#000;
+  --v2:#333;
+  --v3:#fff;
+  --sun:block;
+  }
+
+.sun-mode{
+  --v1:#f0f0f5;
+  --v2:#fff;
+  --v3:#000;
+  --moon:block;
+  }
+
 html{
   scroll-behavior:smooth;
 }
@@ -63,10 +85,10 @@ input:focus{
   outline:none;
   }
 #sun{
-  display:none;
+  display:var(--sun);
   }
 #moon{
-  display:none;
+  display:var(--moon);
   }
 
 .icons{
