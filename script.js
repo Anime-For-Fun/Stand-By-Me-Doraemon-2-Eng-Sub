@@ -7,6 +7,14 @@
      element.classList.add('sun-mode');
 }
 
+function searchFunc(){
+    document.getElementById('search-bar').style.visibility='visible';
+}
+
+function hideFunc(){
+    document.getElementById('search-bar').style.visibility='hidden';
+}
+
 function moonColor(){
     element.classList.remove("sun-mode");
     element.classList.add("dark-mode");
