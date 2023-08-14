@@ -131,7 +131,7 @@ input:focus{
   display:block;
   aspect-ratio:16/9;
   object-fit:cover;
-  background:var(--v1);
+  background-image:url("blank.png");
   font-size:14px;
   border-radius:3px;
 }
