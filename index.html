@@ -4,13 +4,14 @@
 <meta charset="utf-8">
 <title>My website</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script defer src="script.js"></script>
+<script src="script.js"></script>
 <link rel="preload stylesheet" media="(max-width:599px)" href="mobile.css" as="style">
 <link rel="preload stylesheet" media="(min-width:600px)" href="desktop.css" as="style">
+<script defer src="function.js"></script>
 </head>
 <body>
 <div id="search-bar">
-<button onclick="document.getElementById('search-bar').style.visibility='hidden'" aria-label="Back">
+<button onclick="hideFunc()" aria-label="Back">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg></button>
 <input type="search" placeholder="Search">
 <button onclick="" aria-label="Search">
@@ -20,7 +21,7 @@
 <nav>
 <h1 class="title"><a href="#">Anime For Fun</a></h1>
 <div class="icons">
-<button onclick="document.getElementById('search-bar').style.visibility='visible'" aria-label="Search">
+<button onclick="searchFunc()" aria-label="Search">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
 </svg></button>
 <button id="moon" onclick="moonColor()" aria-label="theme-color">
