@@ -7,7 +7,7 @@
   }
 
 .sun-mode{
-  --v1:#f0f0f5;
+  --v1:#f0f0f2;
   --v2:#fff;
   --v3:#000;
   --sun:none;
@@ -73,7 +73,6 @@ button{
   border:none;
   color:var(--v3);
   background:var(--v1);
-  border-radius:5px;
   }
 input:focus{
   outline:none;
@@ -108,7 +107,6 @@ input:focus{
 .box{
   background:var(--v2);
   padding:5px;
-  border-radius:5px;
 }
 .box:active{
   transform:scale(0.95);
@@ -119,7 +117,6 @@ input:focus{
   margin:10px;
   height:40px;
   background:var(--v2);
-  border-radius:5px;
 }
 .title-box p{
   margin:auto 5px;
@@ -131,9 +128,8 @@ input:focus{
   display:block;
   aspect-ratio:16/9;
   object-fit:cover;
-  background:#f0f0f5;
+  background-image:url('blank.png');
   font-size:14px;
-  border-radius:3px;
 }
 
 .footer{
