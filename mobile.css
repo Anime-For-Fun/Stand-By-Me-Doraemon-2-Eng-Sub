@@ -73,6 +73,7 @@ button{
   border:none;
   color:var(--v3);
   background:var(--v1);
+  border-radius:3px;
   }
 input:focus{
   outline:none;
@@ -107,6 +108,7 @@ input:focus{
 .box{
   background:var(--v2);
   padding:5px;
+  border-radius:3px;
 }
 .box:active{
   transform:scale(0.95);
@@ -117,6 +119,7 @@ input:focus{
   margin:10px;
   height:40px;
   background:var(--v2);
+  border-radius:3px;
 }
 .title-box p{
   margin:auto 5px;
@@ -126,9 +129,11 @@ input:focus{
   }
 .box img{
   display:block;
+  width:100%;
   aspect-ratio:16/9;
   object-fit:cover;
-  background-image:url('blank.png');
+  background:#f0f0f2;
+  background-repeat:no-repeat;
   font-size:14px;
 }
 
@@ -151,6 +156,6 @@ a{
   }
 
 button:active{
-  background:#bbb;
+  background:#f0f0f2;
   }
 
