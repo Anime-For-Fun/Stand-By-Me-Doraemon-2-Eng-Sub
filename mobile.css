@@ -74,9 +74,12 @@ button{
   border:1px solid #ccc;
   color:var(--v3);
   background:var(--v1);
-  border-radius:3px;
+  border-radius:5px;
   outline:none;
   }
+::placeholder{
+ color:var(--v3);
+ }
 #sun{
   display:var(--sun);
   }
