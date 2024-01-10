@@ -71,12 +71,10 @@ button{
 #search-bar input{
   margin:10px 0;
   width:100%;
-  border:none;
+  border:1px solid #ccc;
   color:var(--v3);
   background:var(--v1);
   border-radius:3px;
-  }
-input:focus{
   outline:none;
   }
 #sun{
@@ -109,17 +107,15 @@ input:focus{
 .box{
   background:var(--v2);
   padding:5px;
+  border:1px solid #ccc;
   border-radius:3px;
-}
-.box:active{
-  transform:scale(0.95);
-  }
-  
+} 
 .title-box{
   display:flex;
   margin:10px;
   height:40px;
   background:var(--v2);
+  border:1px solid #ccc;
   border-radius:3px;
 }
 .title-box p{
