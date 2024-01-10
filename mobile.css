@@ -7,8 +7,8 @@
   }
 
 .sun-mode{
-  --v1:#f0f0f2;
-  --v2:#fff;
+  --v1:#fff;
+  --v2:#f0f0f5;
   --v3:#000;
   --sun:none;
   --moon:block;
@@ -71,7 +71,6 @@ button{
 #search-bar input{
   margin:10px 0;
   width:100%;
-  border:1px solid #ccc;
   color:var(--v3);
   background:var(--v1);
   border-radius:5px;
@@ -111,7 +110,6 @@ button{
 .box{
   background:var(--v2);
   padding:5px;
-  border:1px solid #ccc;
   border-radius:5px;
 } 
 .title-box{
@@ -119,7 +117,6 @@ button{
   margin:10px;
   height:40px;
   background:var(--v2);
-  border:1px solid #ccc;
   border-radius:5px;
 }
 .title-box p{
