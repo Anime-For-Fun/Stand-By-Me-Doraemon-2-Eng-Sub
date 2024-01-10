@@ -32,7 +32,7 @@ p{
 nav{
   display:flex;
   height:50px;
-  padding:0 5px 0 10px;
+  align-items:center;
   border-bottom:1px solid #ccc;
   background:var(--v2);
 }
@@ -41,7 +41,7 @@ svg{
   }
 .title{
   color:var(--v3);
-  margin:auto 0;
+  margin-left:10px;
   font-size:18px;
   font-weight: normal;
 }
@@ -86,6 +86,7 @@ button{
 
 .icons{
   display:flex;
+  margin-right:10px;
   margin-left:auto;
 }
 
@@ -108,7 +109,7 @@ button{
   background:var(--v2);
   padding:5px;
   border:1px solid #ccc;
-  border-radius:3px;
+  border-radius:5px;
 } 
 .title-box{
   display:flex;
@@ -116,7 +117,7 @@ button{
   height:40px;
   background:var(--v2);
   border:1px solid #ccc;
-  border-radius:3px;
+  border-radius:5px;
 }
 .title-box p{
   margin:auto 5px;
@@ -131,6 +132,7 @@ button{
   object-fit:cover;
   background:#f0f0f2;
   background-repeat:no-repeat;
+  border-radius:5px;
   font-size:14px;
 }
 
