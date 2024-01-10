@@ -1,4 +1,4 @@
-.dark-mode{
+ .dark-mode{
   --v1:#000;
   --v2:#333;
   --v3:#fff;
@@ -149,7 +149,7 @@ a{
 
 .icons button{
   padding:0;
-  margin:13px 5px;
+  margin:0 5px;
   background:none;
   border:none;
   }
